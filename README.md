@@ -1,2 +1,11 @@
 # bid
-Strategic offering to sequential day-ahead and intraday electricity markets
+Model for the working paper "Strategic offering of a flexible producer to sequential day-ahead and intraday markets"
+
+# Model description
+The bi-level model builds offer curves of a strategic producer for sequential day-ahead and intraday markets. The upper-level maximizes the profit of the strategic producer, while the lower-level problems clear the day-ahead and intraday markets.
+
+# Running the model
+The model uses GAMS and CPLEX. Run the model with
+```
+gams bid.gms
+```
